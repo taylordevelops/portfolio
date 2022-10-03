@@ -421,6 +421,17 @@ main {
 
 /* End About Section */
 
+.portfolio-items{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.portfolio-items p{
+  max-width: 26rem;
+  padding: 2rem;
+}
+
+
 
 div.footer-art{
     margin: 0;
