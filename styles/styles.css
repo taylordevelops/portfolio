@@ -427,11 +427,14 @@ main {
   justify-content: center;
 }
 .portfolio-items p{
-  max-width: 26rem;
+  max-width: 198px;
   padding: 2rem;
 }
 
-
+.portfolio-details{
+  text-transform: uppercase;
+  font-size: 0.6rem;
+}
 
 div.footer-art{
     margin: 0;
