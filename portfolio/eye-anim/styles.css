@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #211e1e;
+} 
+
+main {
+    margin: 0;
+    border: 0;
+}
+
+div#main-wrapper {
+    margin: 0;
+    border: 0;
+    padding: 2% 0 0 2%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+svg.eye {
+    border: 0;
+    padding: 0;;
+    border-radius: 25%;
+    flex-grow: 1;
+    order: 1;
+}
+
+.splash-text{
+    flex-grow: 1;
+    order: 2;
+    width: 100%;
+    color:rgb(222, 222, 222);
+}
+
+.cls-1 {
+    fill: #fff;
+}
+
+#SquareBG {
+    fill:rgb(222, 222, 222);
+    transform-origin: center center;
+    /*
+*    -webkit-animation:spin 80s linear infinite;
+*    -moz-animation:spin 80s linear infinite;
+*    animation:spin 80s linear infinite;
+    */
+}
+
+#shape-1 {
+    fill: #e1e1e1;
+}
+
+/*
+* #shape-2 {
+* }
+*/
+
+#shape-3 {
+    fill: #515151;
+}
+
+#shape-4 {
+    display: none;
+}
+
+#shape-5 {
+    display: none;
+}
+
+#shape-6 {
+    transform-origin: center center;
+    -webkit-animation:spin 80s linear infinite;
+    -moz-animation:spin 80s linear infinite;
+    animation:spin 80s linear infinite;
+}
+
+#shape-7 {
+    transform-origin: center center;
+    -webkit-animation:spin2 80s linear infinite;
+    -moz-animation:spin2 80s linear infinite;
+    animation:spin2 80s linear infinite;
+}
+
+#shape-8, #shape-9 {
+    -webkit-animation:spin3 20s ease infinite;
+    -moz-animation:spin3 20s ease infinite;
+    animation:spin3 20s ease infinite;
+}
+
+/*
+* #shape-9 {
+* }
+*/
+
+#shape-10 {
+    fill: rgb(52, 52, 52);
+}
+
+#shape-11 {
+    transform-origin: center center;
+    -webkit-animation:spin2 80s linear infinite;
+    -moz-animation:spin2 80s linear infinite;
+    animation:spin2 80s linear infinite;
+}
+
+#shape-12 {
+    transform-origin: center center;
+    -webkit-animation:spin 80s linear infinite;
+    -moz-animation:spin 80s linear infinite;
+    animation:spin 80s linear infinite;
+}
+
+#shape-13 {
+    fill: #231f20;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+@-moz-keyframes spin2 { 100% { -moz-transform: rotate(-360deg); } }
+@-webkit-keyframes spin2 { 100% { -webkit-transform: rotate(-360deg); } }
+@keyframes spin2 { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+
+@-moz-keyframes spin3 { 50% { -moz-transform: rotate(-360deg); } }
+@-webkit-keyframes spin3 { 50% { -webkit-transform: rotate(-360deg); } }
+@keyframes spin3 { 50% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+
+
+@media only screen and (min-width: 600px) {
+
+    svg.eye {
+        border-radius: 25%;
+        width: 40vw;
+    }
+        
+    .splash-text{
+        width: 50%;
+    }
+    .splash-text header, .splash-text p {
+        max-width: 20rem;
+        padding: 5rem;
+    }
+}
+
