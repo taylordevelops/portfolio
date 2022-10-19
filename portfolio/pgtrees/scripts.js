@@ -38,23 +38,23 @@ translate(width / 2, height + 300);
    pop()
    push()
 
-   /*
-   translate(width / 2, height);
-   let sunColor = color(255, 204, 0);
-   fill(sunColor);
-   noStroke()
-   ellipse(0, 0, 175, 150);
+  /*
+  translate(width / 2, height);
+  let sunColor = color(255, 204, 0);
+  fill(sunColor);
+  noStroke()
+  ellipse(0, 0, 175, 150);
 
-   let blazeColor = color(255, 130, 0);
-   fill(blazeColor);
-   noStroke()
-   ellipse(0, 0, 165, 150);
+  let blazeColor = color(255, 130, 0);
+  fill(blazeColor);
+  noStroke()
+  ellipse(0, 0, 165, 150);
 
-   translate(1, -1)
-   let sunGlow = color(255, 204, 0, 80);
-   fill(sunGlow);
-   noStroke()
-   ellipse(0, 0, 160, 155);
+  translate(1, -1)
+  let sunGlow = color(255, 204, 0, 80);
+  fill(sunGlow);
+  noStroke()
+  ellipse(0, 0, 160, 155);
 
 */
 

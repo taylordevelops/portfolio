@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Sail&display=swap');
 
+body{
+  margin: 0;
+}
+
 .gameContainer{
   background-color: #0077be;
   height: 100%;
