@@ -12,8 +12,10 @@
 
     <title>Contact Taylor Clark - Web Developer, UI/UX Designer</title>
     <link rel="stylesheet" href="../styles/styles.css">
-</head>
+    <script language="JavaScript" src="scripts/gen_validatorv31.js" type="text/javascript"></script>
 
+</head>
+</head>
 <body>
     <div id="starbox"></div>
 
@@ -60,25 +62,21 @@
                 </p>
             </div>
 
-            <form action="/my-handling-form-page" method="post">
-                <ul>
-                  <li>
-                    <label for="name">Your Name:</label>
-                    <input type="text" id="name" name="user_name" required/>
-                  </li>
-                  <li>
-                    <label for="mail">Your E-mail:</label>
-                    <input type="email" id="mail" name="user_email" required/>
-                  </li>
-                  <li>
-                    <label for="msg">Your Message:</label>
-                    <textarea id="msg" name="user_message" required></textarea>
-                  </li>
-                  <li class="button">
-                    <button type="submit">Send your message</button>
-                  </li>
-                </ul>
-              </form>
+            <form method="POST" name="contactform" action="contact-form-handler.php"> 
+                <p>
+                <label for='name'>Your Name:</label> <br>
+                <input type="text" name="name">
+                </p>
+                <p>
+                <label for='email'>Email Address:</label> <br>
+                <input type="text" name="email"> <br>
+                </p>
+                <p>
+                <label for='message'>Message:</label> <br>
+                <textarea name="message"></textarea>
+                </p>
+                <input type="submit" value="Submit"><br>
+                </form>
 
         </main>
 
@@ -99,6 +97,13 @@
 
 
     <script type="text/javascript" src="../app/scripts.js"></script>
+
+    <script language="JavaScript">
+        var frmvalidator  = new Validator("contactform");
+        frmvalidator.addValidation("name","req","Please provide your name"); 
+        frmvalidator.addValidation("email","req","Please provide your email"); 
+        frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+        </script>
 </body>
 
 </html>
