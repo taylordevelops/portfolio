@@ -562,6 +562,7 @@ button {
   font-size: 1rem;
   background-color: #6EB5FF;
   transition-delay: 20ms;
+  margin-left: 25%;
 }
 .contact-button:hover{
   background-color: #FFF;
