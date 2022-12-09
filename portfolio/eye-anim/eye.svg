@@ -1,0 +1,21 @@
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 125 125" class="eye">
+            <rect id="SquareBG" class="cls-1" y="0" width="125" height="125" />
+            <circle id="shape-1" class="cls-1" cx="62.48" cy="62.5" r="62.5" />
+            <circle id="shape-2" class="cls-1" cx="62.5" cy="62.5" r="56.25" />
+            <circle id="shape-3" class="cls-1" cx="62.48" cy="62.5" r="50" />
+            <ellipse id="shape-4" class="cls-1" cx="62.17" cy="62.81" rx="25" ry="50"
+                transform="translate(-26.21 62.36) rotate(-45)" />
+            <ellipse id="shape-5" class="cls-1" cx="61.85" cy="62.18" rx="50" ry="25"
+                transform="translate(-25.85 61.95) rotate(-45)" />
+            <ellipse id="shape-6" class="cls-1" cx="62.5" cy="61.85" rx="25" ry="50" />
+            <ellipse id="shape-7" class="cls-1" cx="61.85" cy="62.18" rx="50" ry="25" />
+            <ellipse id="shape-8" class="cls-1" cx="61.85" cy="62.5" rx="6.25" ry="50"
+                transform="translate(-26.08 62.04) rotate(-45)" />
+            <ellipse id="shape-9" class="cls-1" cx="62.5" cy="62.5" rx="50" ry="6.25"
+                transform="translate(-25.89 62.5) rotate(-45)" />
+            <circle id="shape-10" class="cls-1" cx="62.5" cy="61.85" r="25" />
+            <path id="shape-11" class="cls-1"
+                d="M62.5,75c-13.81,0-25-5.6-25-12.5,0-6.9,11.19-12.5,25-12.5s25,5.6,25,12.5-11.19,12.5-25,12.5Z" />
+            <ellipse id="shape-12" class="cls-1" cx="62.5" cy="62.18" rx="12.5" ry="25" />
+            <circle id="shape-13" class="cls-1" cx="62.5" cy="61.85" r="12.5" />
+        </svg>
