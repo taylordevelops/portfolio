@@ -54,11 +54,32 @@
         <main>
             <div class="contact-section">
                 <p>
-                    Connect with me on <a href="https://www.linkedin.com/in/taylorstevenclark"
+                    Please use the form below to contact me, <br />or you can connect with me on <a href="https://www.linkedin.com/in/taylorstevenclark"
                         target="_new">👨‍💻LinkedIn</a>
-                    and <a href="https://github.com/taylordevelops" target="_new">🐙GitHub</a>.
+                    or <a href="https://github.com/taylordevelops" target="_new">🐙GitHub</a>.
                 </p>
             </div>
+
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                  <li>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="user_name" required/>
+                  </li>
+                  <li>
+                    <label for="mail">Your E-mail:</label>
+                    <input type="email" id="mail" name="user_email" required/>
+                  </li>
+                  <li>
+                    <label for="msg">Your Message:</label>
+                    <textarea id="msg" name="user_message" required></textarea>
+                  </li>
+                  <li class="button">
+                    <button type="submit">Send your message</button>
+                  </li>
+                </ul>
+              </form>
+
         </main>
 
     </div>
