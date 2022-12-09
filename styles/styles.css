@@ -621,4 +621,8 @@ button {
   font-family: var(--font-1);
   font-size: 1rem;
   background-color: #6EB5FF;
+  transition-delay: 20ms;
+}
+.contact-button:hover{
+  background-color: #FFF;
 }
