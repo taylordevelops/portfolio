@@ -182,19 +182,21 @@ span.copyright-symbol{
 div.top-logo {
     margin: 0 auto;
 	  transition: all 1.9s ease-out;
-    border: 2rem solid transparent;
-    filter: drop-shadow(0 0 2rem #FFFFFF);
+    border: 1rem solid transparent;
+    filter: drop-shadow(0 0 1rem #FFFFFF);
     width: 5rem;
     height: 5rem;
     background: var(--logo);
     background-repeat: no-repeat;
     background-size: contain;
 }
+/*
 div.top-logo:hover {
 	transition: all 3.8s ease-in;
   transform: rotate(360deg);
   transition-delay: 0.1s;
 }
+*/
 div.logo-text-wrapper{
   max-width: 53rem;
   margin: 0 auto;
