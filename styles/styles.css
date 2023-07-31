@@ -61,7 +61,7 @@
     --link-a-hover:  #6EB5FF;
     --link-a-active:  #6EB5FF;
     
-    --logo: url(/images/tcicon-light.svg);
+    --logo: url(/images/tcicon-light.png);
 
     --background-p1: rgb(0,6,22); /* Old browsers */
     --background-p2: -moz-linear-gradient(top,  rgba(0,6,22,1) 0%, rgba(1,44,69,1) 89%, rgba(20,20,30,1) 100%); /* FF3.6-15 */
@@ -92,7 +92,7 @@
     --link-a-hover:  #6EB5FF;
     --link-a-active:  #6EB5FF;
 
-    --logo: url(/images/tcicon.svg);
+    --logo: url(/images/tcicon.png);
 
     /* Main Background Gradients */
     --background-p1: rgb(255, 255, 255); /* Old browsers */
@@ -188,6 +188,7 @@ div.top-logo {
     height: 5rem;
     background: var(--logo);
     background-repeat: no-repeat;
+    background-size: contain;
 }
 div.top-logo:hover {
 	transition: all 3.8s ease-in;
