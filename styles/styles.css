@@ -398,6 +398,13 @@ main {
   border: var(--profile-border-color) solid 0.5rem;
 }
 
+.project-screenshot{
+  max-width: 100%;
+}
+.center-text{
+  text-align: center;
+}
+
 @media only screen and (min-width: 50rem){
       .profile-tn{
         margin: 2rem 1rem;
